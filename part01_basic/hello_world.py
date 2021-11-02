@@ -15,7 +15,7 @@ help(print)
             end:   string appended after the last value, default a newline. 结尾 默认'\n'
             flush: whether to forcibly flush the stream. 输出是否被缓存通常决定于 file，但如果 flush 关键字参数为 True，流会被强制刷新。我不理解
 '''
-open('test.txt', 'w')  # 只能写
+# open('test.txt', 'w')  # 只能写
 print('hello', file=sys.stdout)  # 我不理解
 print('hello', 'world', sep=', ', end='!')  # 不存在'\n' 结尾不换行
 print('goodbye, world', end='!\n')
