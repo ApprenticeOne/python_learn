@@ -33,3 +33,7 @@ print('flag2 =', flag2)    # flag2 = False
 print('flag3 =', flag3)    # flag3 = False
 print('flag4 =', flag4)    # flag4 = True
 print('flag5 =', flag5)    # flag5 = False
+
+# 获取输入 类型转换
+a = int(input('a = '))
+b = int(input('b = '))
