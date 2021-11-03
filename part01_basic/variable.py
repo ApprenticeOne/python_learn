@@ -37,7 +37,7 @@ print('flag5 =', flag5)    # flag5 = False
 # 获取输入 类型转换
 a = int(input('a = '))
 b = int(input('b = '))
-# 格式化输入
+# 格式化输入 第四个百分号表示呢容来源，对应相等
 print('%d + %d = %d' % (a, b, a + b))
 
 """
