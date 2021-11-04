@@ -34,3 +34,8 @@ while True:
     else:
         print("right")
 print('you got d% times to get right answer' % count)
+
+for i in range(1, 10):
+    for j in range(1, i + 1):
+        print('%d*%d=%d' % (i, j, i * j), end='\t')
+    print()
